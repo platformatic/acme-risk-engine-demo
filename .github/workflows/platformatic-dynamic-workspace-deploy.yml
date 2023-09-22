@@ -28,6 +28,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           platformatic_workspace_id: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_ID }}
           platformatic_workspace_key: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_API_KEY }}
+          platformatic_config_path: ./platformatic.runtime.json
     outputs:
       deployment_id: \${{ steps.deploy-project.outputs.deployment_id }}
 
@@ -45,4 +46,4 @@ jobs:
           platformatic_workspace_id: \${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_ID }}
           platformatic_workspace_key: \${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_API_KEY }}
           platformatic_deployment_id: \${{ needs.build_and_deploy.outputs.deployment_id }}
-          platformatic_config_path: ./platformatic.service.json
+          platformatic_config_path: ./platformatic.runtime.json
