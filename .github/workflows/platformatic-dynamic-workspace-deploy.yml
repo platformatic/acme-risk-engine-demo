@@ -12,6 +12,9 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     env:
+      DATABASE_URL: './db.sqlite'
+      HOSTNAME: '127.0.0.1'
+      PORT: 3001
 
     steps:
       - name: Checkout application project repository
