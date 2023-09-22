@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "platformatic start"
+  },
+  "devDependencies": {
+    "fastify": "^4.23.2"
+  },
+  "dependencies": {
+    "platformatic": "^0.46.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
+  }
+}

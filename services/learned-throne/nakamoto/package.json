@@ -1,0 +1,5 @@
+{
+  "name": "nakamoto",
+  "types": "./nakamoto.d.ts",
+  "main": "./nakamoto.cjs"
+}
