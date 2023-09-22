@@ -19,6 +19,7 @@ declare namespace nakamoto {
   }
 
   export interface GetExampleResponseOK {
+    'hello': string;
   }
 
 }
