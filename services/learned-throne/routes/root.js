@@ -15,6 +15,6 @@ module.exports = async function (fastify, opts) {
       } 
     }
   }, async (request, reply) => {
-    return await fastify.nakamoto.getExample()
+    return await request.nakamoto.getExample()
   })
 }
