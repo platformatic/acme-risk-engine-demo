@@ -8,12 +8,12 @@ module.exports = async function (fastify, opts) {
         200: {
           type: 'object',
           properties: {
-            hello: { type: 'string' }
+            ciao: { type: 'string' }
           }
         }
       } 
     }
   }, async (request, reply) => {
-    return { hello: fastify.example }
+    return { ciao: fastify.example }
   })
 }
