@@ -8,7 +8,7 @@
     "fastify": "^4.23.2"
   },
   "dependencies": {
-    "platformatic": "^0.46.1",
+    "platformatic": "^1.0.0",
     "@platformatic/db": "^0.46.1"
   },
   "engines": {
