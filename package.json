@@ -3,7 +3,7 @@
     "start": "platformatic start"
   },
   "devDependencies": {
-    "fastify": "^4.23.2"
+    "fastify": "^5.0.0"
   },
   "dependencies": {
     "platformatic": "^0.46.1"
